@@ -1,0 +1,26 @@
+body {
+    font-family: 'Roboto', sans-serif;;
+}
+
+header {
+    background-color: rgb(135, 248, 210);
+}
+
+.navbar-brand {
+    font-family: 'Cherry Bomb One', cursive;
+    color: dodgerblue;
+}
+
+.navbar .nav-link {
+    color: dodgerblue;
+}
+
+.navbar .nav-link.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.carousel img {
+    height: 500px;
+    object-fit: cover;
+}
