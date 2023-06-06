@@ -24,3 +24,8 @@ header {
     height: 500px;
     object-fit: cover;
 }
+
+.section-title {
+    font-family: 'Cherry Bomb One', cursive;
+    color: dodgerblue;
+}
