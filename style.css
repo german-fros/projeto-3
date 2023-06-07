@@ -3,20 +3,20 @@ body {
 }
 
 header {
-    background-color: rgb(135, 248, 210);
+    background-color: rgb(137, 53, 185);
 }
 
 .navbar-brand {
     font-family: 'Cherry Bomb One', cursive;
-    color: dodgerblue;
+    color: white;
 }
 
 .navbar .nav-link {
-    color: dodgerblue;
+    color: white;
 }
 
 .navbar .nav-link.active {
-    background-color: dodgerblue;
+    background-color: rgb(68, 14, 100);
     color: white;
 }
 
@@ -27,5 +27,53 @@ header {
 
 .section-title {
     font-family: 'Cherry Bomb One', cursive;
-    color: dodgerblue;
+    color: rgb(68, 14, 100);
+}
+
+#pacotes {
+    background-color: rgba(136, 53, 185, 0.233);
+}
+
+.nav.nav-tabs button {
+    background-color: white;
+    color: rgb(137, 53, 185);
+}
+
+.nav.nav-tabs .active {
+    color: white;
+    background-color: rgb(137, 53, 185);
+}
+
+.text-color {
+    color: rgb(68, 14, 100);
+}
+
+form textarea {
+    width: 400px;
+    height: 100px;
+    resize: none;
+}
+
+.form-control {
+    border-color: rgb(68, 14, 100);
+}
+
+.btn {
+    background-color: rgb(68, 14, 100);
+    color: white;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
 }
